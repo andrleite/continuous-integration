@@ -59,18 +59,47 @@ Only if the Continuous Integration infrastructure tells you the tests pass, ==**
 [https://www.youtube.com/watch?v=_wnd-eyPoMo]
 <smal>by Jez Humble<smal>
 
-## Working with feature branch
+## Feature Branch
+The basic idea of a feature branch is that when you start work on a feature (or UserStory if you prefer that term) you take a branch of the repository to work on that feature
+
+
+## Feature Toggle
+Feature toggles are a powerful technique, allowing teams to modify system behavior without changing code.
+
+## Branch by Abstraction
+A pattern for making large-scale changes to your application incrementally on mainline.
+
+## Feature branch vs Continuos Integration
 It's important to note that, most of the time, feature branching like this is a different approach to CI. One of the principles of CI is that everyone commits to the mainline every day.
 
 People say they are doing CI because they are running builds, perhaps using a CI server, on every branch with every commit. That's continuous building, and a Good Thing, but there's no integration, so it's not CI.
 
+#### Continuous Integration
+![100%](images/continuous.png)
+
+#### Promiscuous Integration
+![100%](images/promiscuous.png)
+
 ## Tools
+![50%](images/jenkins.png) 
 - [Jenkins](https://jenkins.io/index.html)
+
+![20%](images/travis.png) 
 - [Travis CI](https://travis-ci.org/)
+
+![80%](images/gocd.png) 
 - [Go](https://www.gocd.io/)
+
+![30%](images/bamboo.png) 
 - [Bamboo](https://www.atlassian.com/software/bamboo)
+
+![50%](images/circleci.png) 
 - [CircleCI](https://circleci.com/)
+
+![20%](images/gitlab.svg) 
 - [Gitlab CI](https://about.gitlab.com/)
+
+![20%](images/codeship.png) 
 - [Codeship](https://codeship.com/)
 
 ## Further Reading
