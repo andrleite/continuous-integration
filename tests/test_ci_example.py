@@ -15,7 +15,7 @@ class CiExampleTests(TestCase):
     def test_number_is_even():
         """Simple Test for even numbers"""
         calc = Calculator.number_is_even()
-        assert calc(3) == 0
+        assert calc(2) == 0
 
     def test_adder(self):
         """Simple test for sum numbers"""
